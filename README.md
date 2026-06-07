@@ -42,11 +42,11 @@ daphne -b 0.0.0.0 -p 8000 chatapp.asgi:application
 
 ## Configuration
 
-All secrets and hosts come from environment variables — see `.env.example`,
+All secrets and hosts come from environment variables - see `.env.example`,
 `chatapp/settings.py`, and `chatapp/aws/conf.py`. The Terraform and
 `.ebextensions` files contain placeholder hosts/buckets; replace them with your
 own. Never commit real credentials.
 
 ## License
 
-MIT — see [LICENSE](LICENSE).
+MIT - see [LICENSE](LICENSE).
